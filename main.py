@@ -5,8 +5,6 @@ from keboard.keboards import get_keyboard_1, get_keyboard_2
 bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher(bot)
 
-bot = Bot(token=TELEGRAM_TOKEN)
-dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def start(message: types.Message):
